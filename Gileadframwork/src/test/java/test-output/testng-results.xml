@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33505" started-at="2020-03-01T09:43:05 IST" finished-at="2020-03-01T09:43:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33505" started-at="2020-03-01T09:43:05 IST" finished-at="2020-03-01T09:43:38 IST">
+      <class name="testcases.TC001_LoginLogout">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_LoginLogout@d44fc21]" name="setData" is-config="true" duration-ms="16" started-at="2020-03-01T09:43:05 IST" finished-at="2020-03-01T09:43:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@d44fc21]" name="login" is-config="true" duration-ms="16808" started-at="2020-03-01T09:43:06 IST" finished-at="2020-03-01T09:43:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@d44fc21]" name="loginLogout" duration-ms="2310" started-at="2020-03-01T09:43:23 IST" data-provider="getData" finished-at="2020-03-01T09:43:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC001_LoginLogout@d44fc21]" name="closeBrowser" is-config="true" duration-ms="322" started-at="2020-03-01T09:43:25 IST" finished-at="2020-03-01T09:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@d44fc21]" name="login" is-config="true" duration-ms="11708" started-at="2020-03-01T09:43:25 IST" finished-at="2020-03-01T09:43:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@d44fc21]" name="loginLogout" duration-ms="1042" started-at="2020-03-01T09:43:37 IST" data-provider="getData" finished-at="2020-03-01T09:43:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC001_LoginLogout@d44fc21]" name="closeBrowser" is-config="true" duration-ms="126" started-at="2020-03-01T09:43:38 IST" finished-at="2020-03-01T09:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC001_LoginLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
